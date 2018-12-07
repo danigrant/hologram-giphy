@@ -20,7 +20,7 @@ async function displaySticker(stickerObj) {
 
 }
 
-// reload page on tap
-document.body.onclick = (e) => {
-  location.reload()
-}
+// // reload page on tap
+// document.body.onclick = (e) => {
+//   location.reload()
+// }
