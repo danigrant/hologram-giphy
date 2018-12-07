@@ -19,3 +19,8 @@ async function displaySticker(stickerObj) {
   document.getElementById('sticker-south').innerHTML = `<img class="sticker" src="${stickerObj.gifUrl}" />`
 
 }
+
+// reload page on tap
+document.body.onclick = (e) => {
+  location.reload()
+}
