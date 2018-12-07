@@ -1,4 +1,4 @@
-let serverLocation = 'http://localhost:3000'
+let serverLocation = 'https://giphy.dani.town'
 
 void async function main() {
   await getSticker()
