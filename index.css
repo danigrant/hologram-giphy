@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+
+.stickers {
+  text-align: center;
+  margin-top: 400px;
+}
+
+.stickers div {
+  position: relative;
+}
+
+.sticker {
+  width: 200px;
+}
+
+#sticker-north {
+  display: block;
+}
+
+#sticker-east {
+  display: inline-block;
+
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#sticker-south {
+  display: block;
+
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+#sticker-west {
+  display: inline-block;
+
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
